@@ -135,7 +135,7 @@ def train_models():
 
 # ---------------- GUI ----------------
 root = Tk()
-root.title("📊 Customer Churn Prediction System")
+root.title(" Customer Churn Prediction System")
 root.geometry("550x450")
 
 Button(root, text=" Load File", command=load_file, width=30).pack(pady=5)
@@ -148,3 +148,4 @@ result = StringVar()
 Label(root, textvariable=result, bg="white", width=70, height=8, anchor="w", justify=LEFT).pack(pady=10)
 
 root.mainloop()
+
